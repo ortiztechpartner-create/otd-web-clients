@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soluciones de calidad en </title>
+  <meta name="description" content="Encuentra los mejores servicios en . Contáctanos para obtener más información.">
+  <meta property="og:title" content="Soluciones de calidad en ">
+  <meta property="og:description" content="Encuentra los mejores servicios en . Contáctanos para obtener más información.">
+  <meta property="og:type" content="website">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <style>
+    :root {
+      --color-primary: #2563EB;
+      --color-secondary: #F8FAFC;
+    }
+    html { scroll-behavior: smooth; }
+
+    .hero-section {
+      background-image:
+        linear-gradient(to bottom, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.35) 100%),
+        url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=1920&q=80&auto=format&fit=crop');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .whatsapp-fab {
+      position: fixed; bottom: 1.5rem; right: 1.5rem; z-index: 50;
+      display: flex; align-items: center; gap: 0.5rem;
+      background: #25D366; color: white; font-weight: 700;
+      font-size: 0.9rem; padding: 0.7rem 1.25rem; border-radius: 9999px;
+      box-shadow: 0 4px 20px rgba(37,211,102,0.45);
+      text-decoration: none; transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .whatsapp-fab:hover { transform: scale(1.06); box-shadow: 0 6px 30px rgba(37,211,102,0.55); }
+
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      color: white; font-weight: 700; font-size: 1rem;
+      padding: 0.9rem 2rem; border-radius: 9999px;
+      background-color: #2563EB;
+      box-shadow: 0 4px 20px #2563EB55;
+      text-decoration: none; transition: opacity 0.2s ease, transform 0.2s ease;
+    }
+    .btn-primary:hover { opacity: 0.9; transform: translateY(-1px); }
+
+    /* Tema visual: clean_light */
+    
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900 antialiased">
+
+  <!-- ===== HERO ===== -->
+  <section class="hero-section min-h-screen flex items-center justify-center text-center px-4 py-24">
+    <div class="max-w-3xl mx-auto text-white">
+      <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-5 drop-shadow-lg">
+        Soluciones de calidad para ti
+      </h1>
+      <p class="text-lg md:text-xl text-gray-200 mb-10 max-w-xl mx-auto leading-relaxed">
+        Contáctanos para obtener más información
+      </p>
+      <a href="#" target="_blank" rel="noopener" class="btn-primary">
+        <i data-lucide="message-circle" class="w-5 h-5"></i>
+        Contáctanos
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== STORY (PROBLEMA / SOLUCIÓN) ===== -->
+  <section class="t-white py-20 px-4 bg-white">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="t-head-gray text-3xl md:text-4xl font-extrabold text-center mb-12" style="color:#2563EB;">
+        Nuestra historia
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="t-problem bg-red-50 border border-red-100 rounded-2xl p-8">
+          <div class="flex items-center gap-2 mb-4">
+            <i data-lucide="alert-circle" class="w-5 h-5 text-red-500"></i>
+            <span class="prob-label font-bold text-red-700 text-sm uppercase tracking-wide">El Problema</span>
+          </div>
+          <p class="text-gray-700 leading-relaxed">En  sabemos que encontrar los servicios adecuados puede ser un desafío</p>
+        </div>
+        <div class="rounded-2xl p-8" style="background-color:#2563EB0D;border:1px solid #2563EB25;">
+          <div class="flex items-center gap-2 mb-4">
+            <i data-lucide="check-circle-2" class="w-5 h-5" style="color:#2563EB;"></i>
+            <span class="font-bold text-sm uppercase tracking-wide" style="color:#2563EB;">La Solución</span>
+          </div>
+          <p class="text-gray-700 leading-relaxed">Por eso, nos esforzamos por brindar soluciones de calidad y personalizadas para cada uno de nuestros clientes</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="t-gray py-20 px-4 bg-gray-50">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="t-head-gray text-3xl md:text-4xl font-extrabold text-center mb-3 text-gray-900">
+        Nuestros Servicios
+      </h2>
+      <p class="t-muted text-center text-gray-500 mb-12">Todo lo que necesitas, en un solo lugar.</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BENEFITS ===== -->
+  <section class="t-white py-20 px-4 bg-white">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-12" style="color:#2563EB;">
+        ¿Por qué confiar en nosotros?
+      </h2>
+      <div class="flex flex-col gap-5 mb-12">
+        <div class="flex items-start gap-3">
+      <div class="flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center mt-0.5" style="background-color:#2563EB;">
+        <i data-lucide="check" class="w-3.5 h-3.5 text-white"></i>
+      </div>
+      <p class="text-gray-700">Nuestro equipo está compuesto por profesionales altamente capacitados</p>
+    </div>
+<div class="flex items-start gap-3">
+      <div class="flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center mt-0.5" style="background-color:#2563EB;">
+        <i data-lucide="check" class="w-3.5 h-3.5 text-white"></i>
+      </div>
+      <p class="text-gray-700">Ofrecemos soluciones personalizadas para cada uno de nuestros clientes</p>
+    </div>
+<div class="flex items-start gap-3">
+      <div class="flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center mt-0.5" style="background-color:#2563EB;">
+        <i data-lucide="check" class="w-3.5 h-3.5 text-white"></i>
+      </div>
+      <p class="text-gray-700">Nuestros precios son competitivos y transparentes</p>
+    </div>
+      </div>
+      <div class="text-center">
+        <a href="#" target="_blank" rel="noopener" class="btn-primary">
+          <i data-lucide="phone" class="w-5 h-5"></i>
+          Contáctanos Ahora
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="t-testimonials py-20 px-4" style="background-color:#2563EB08;">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="t-head-gray text-3xl md:text-4xl font-extrabold text-center mb-12 text-gray-900">
+        Lo Que Dicen Nuestros Clientes
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="t-card bg-white rounded-2xl p-6 shadow-md">
+      <div class="flex gap-1 mb-3"><i data-lucide="star" class="w-4 h-4" style="color:#F59E0B;fill:#F59E0B;"></i><i data-lucide="star" class="w-4 h-4" style="color:#F59E0B;fill:#F59E0B;"></i><i data-lucide="star" class="w-4 h-4" style="color:#F59E0B;fill:#F59E0B;"></i><i data-lucide="star" class="w-4 h-4" style="color:#F59E0B;fill:#F59E0B;"></i><i data-lucide="star" class="w-4 h-4" style="color:#F59E0B;fill:#F59E0B;"></i></div>
+      <p class="text-gray-700 italic mb-4">"La calidad del servicio fue excelente"</p>
+      <p class="font-bold text-gray-900 text-sm">— Andrés R.</p>
+    </div>
+<div class="t-card bg-white rounded-2xl p-6 shadow-md">
+      <div class="flex gap-1 mb-3"><i data-lucide="star" class="w-4 h-4" style="color:#F59E0B;fill:#F59E0B;"></i><i data-lucide="star" class="w-4 h-4" style="color:#F59E0B;fill:#F59E0B;"></i><i data-lucide="star" class="w-4 h-4" style="color:#F59E0B;fill:#F59E0B;"></i><i data-lucide="star" class="w-4 h-4" style="color:#F59E0B;fill:#F59E0B;"></i><i data-lucide="star" class="w-4 h-4" style="color:#F59E0B;fill:#F59E0B;"></i></div>
+      <p class="text-gray-700 italic mb-4">"Me gustó la atención personalizada"</p>
+      <p class="font-bold text-gray-900 text-sm">— Marta S.</p>
+    </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="py-14 px-4 text-white text-center" style="background-color:#2563EB;">
+    <p class="text-xl font-bold mb-2">Soluciones de calidad para ti</p>
+    <p class="text-sm opacity-70 mb-8"> 2026 . Todos los derechos reservados.</p>
+    <a href="#" target="_blank" rel="noopener"
+       class="inline-flex items-center gap-2 bg-white font-bold px-6 py-3 rounded-full hover:opacity-90 transition-opacity"
+       style="color:#2563EB;">
+      <i data-lucide="message-circle" class="w-4 h-4"></i>
+      Escribir por WhatsApp
+    </a>
+  </footer>
+
+  <!-- ===== WHATSAPP FAB ===== -->
+  <a href="#" target="_blank" rel="noopener" class="whatsapp-fab">
+    <i data-lucide="message-circle" class="w-5 h-5"></i>
+    WhatsApp
+  </a>
+
+  <script>lucide.createIcons();</script>
+</body>
+</html>
